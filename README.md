@@ -29,3 +29,11 @@ Procedural contact / 流程联系：`yuanyd6@mail2.sysu.edu.cn`
 This repository does not itself mean that recruitment is open. Recruitment requires an immutable release whose manifest says exactly `approved_for_pilot_data_collection`.
 
 本仓库的存在不代表已经开放招募。只有不可变发布包的 manifest 明确为 `approved_for_pilot_data_collection` 时，才允许开始正式 pilot。
+
+## Branch separation / 分支隔离
+
+- `main` is reserved for a future approved pilot. Do not submit candidate or formative results to it.
+- `formative` accepts only explicitly non-formal P900–P999 rehearsal envelopes. They are permanently excluded from the formal sample and may be used only to diagnose setup, interaction, scenario, and collection-flow defects.
+
+- `main` 仅用于未来经过批准的正式 pilot，不得接收候选版或形成性试跑结果。
+- `formative` 只接收明确标记为非正式的 P900–P999 演练 envelope。这些结果永久排除在正式样本之外，只能用于发现安装、交互、场景和回传流程问题。

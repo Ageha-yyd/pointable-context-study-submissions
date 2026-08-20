@@ -2,7 +2,7 @@ name: Validate encrypted study envelope
 
 on:
   pull_request:
-    branches: [main]
+    branches: [main, formative]
 
 permissions:
   contents: read
